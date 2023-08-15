@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="circle">
+        <div class="number" *ngFor="let number of numbers; let i = index" [style.transform]="getNumberRotation(i)">
+            {{number}}
+        </div>
+    </div>
+</div>
